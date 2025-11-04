@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Photo blog</title>
+    <style>
+        body { font-family: Arial; margin: 0; padding: 20px; background: #f4f4f4; }
+        .header { background: #ff9800; color: white; padding: 20px; margin-bottom: 20px; }
+        .post { background: white; padding: 15px; margin-bottom: 15px; border-radius: 5px; }
+        .post img { max-width: 100%; height: auto; }
+        .btn { background: #ff9800; color: white; padding: 10px 20px; text-decoration: none; border-radius: 5px; display: inline-block; border: none; cursor: pointer; }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>Photo blog</h1>
+        <a href="{% url 'post_new' %}" class="btn">+</a>
+    </div>
+    {% block content %}
+    {% endblock %}
+</body>
+</html>
