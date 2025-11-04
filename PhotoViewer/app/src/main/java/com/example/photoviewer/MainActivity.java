@@ -29,7 +29,7 @@ public class MainActivity extends AppCompatActivity {
 
     TextView textView;
     String site_url = "https://jeongyunmi2002.pythonanywhere.com/";
-    String token = "81f0d1fce4283136a723bbb453b2e3566e685e01";
+    String token = "7ce6ce07b39787486695226ce8a6b045c17db600";
     CloadImage taskDownload;
 
     @Override
