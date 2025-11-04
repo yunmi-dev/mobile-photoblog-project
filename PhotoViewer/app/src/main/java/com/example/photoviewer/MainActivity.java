@@ -28,7 +28,7 @@ import java.util.List;
 public class MainActivity extends AppCompatActivity {
 
     TextView textView;
-    String site_url = "http://10.0.2.2:8000";
+    String site_url = "https://jeongyunmi2002.pythonanywhere.com/";
     String token = "81f0d1fce4283136a723bbb453b2e3566e685e01";
     CloadImage taskDownload;
 
